@@ -1,6 +1,7 @@
 package database;
 
 import enums.Category;
+import enums.ElvesType;
 
 import java.util.LinkedList;
 
@@ -13,6 +14,24 @@ public class ChildUpdate {
     private Long id;
     private Double niceScore;
     private LinkedList<Category> newPreferences = new LinkedList<>();
+    private ElvesType elf;
+
+
+    /**
+     *
+     * @return
+     */
+    public ElvesType getElf() {
+        return elf;
+    }
+
+    /**
+     *
+     * @param elf
+     */
+    public void setElf(ElvesType elf) {
+        this.elf = elf;
+    }
 
     /**
      * @return

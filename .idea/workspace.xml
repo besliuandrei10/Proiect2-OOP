@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9abf9a1-a44c-43c6-b64a-ac2c53533e49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/checkstyle_8_36_2_all.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/checkstyle_8_36_2_all1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proiect2-OOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/src.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proiect2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/Cities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/Cities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    <list default="true" id="c9abf9a1-a44c-43c6-b64a-ac2c53533e49" name="Changes" comment="First Commit.&#10;&#10;Merged projects, hope I did not break anything.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/AnnualChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/AnnualChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/ChildUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/ChildUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/enums/ElvesType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/enums/ElvesType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/io/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/io/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/Kid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/Kid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/Teen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/Teen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_22.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_26.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_27.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_28.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_29.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_29.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_30.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/AnnualChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/AnnualChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/ChildUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/ChildUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/ElvesType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/ElvesType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simulation/Kid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Kid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simulation/Teen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Teen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1641926908158</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit.&#10;&#10;Merged projects, hope I did not break anything.">
+      <created>1641927557256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641927557256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,5 +106,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit.&#10;&#10;Merged projects, hope I did not break anything." />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit.&#10;&#10;Merged projects, hope I did not break anything." />
   </component>
 </project>

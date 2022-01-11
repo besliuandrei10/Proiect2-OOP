@@ -1,5 +1,6 @@
 package simulation;
 
+import common.Constants;
 import database.Child;
 
 import java.util.ArrayList;
@@ -36,6 +37,15 @@ public class Kid implements ChildAgeCategory {
             output += niceScore;
             counter++;
         }
-        return (Double) (output / counter);
+        if (childRef.getNiceScoreBonus() != 0) {
+            Double score = (Double) (output / counter);
+            score += (score * childRef.getNiceScoreBonus()) / 100;
+
+            if (score > Constants.BABY_NICESCORE)
+                return Constants.BABY_NICESCORE;
+            return score;
+        } else {
+            return (Double) (output / counter);
+        }
     }
 }

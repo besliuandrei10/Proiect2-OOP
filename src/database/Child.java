@@ -2,6 +2,7 @@ package database;
 
 import enums.Category;
 import enums.Cities;
+import enums.ElvesType;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -19,13 +20,48 @@ public class Child {
     private String firstName;
     private Cities city;
     private Double niceScore;
+    private Double niceScoreBonus;
     private LinkedList<Category> giftsPreferences = new LinkedList<>();
+    private ElvesType elf;
+
 
     // data for simulation needs
     private Double averageScore;
     private Double allocatedBudget;
     private ArrayList<Double> niceHistory = new ArrayList<>();
     private ArrayList<Gift> receivedGifts = new ArrayList<>();
+
+    /**
+     *
+     * @return
+     */
+    public ElvesType getElf() {
+        return elf;
+    }
+
+    /**
+     *
+     * @param elf
+     */
+    public void setElf(ElvesType elf) {
+        this.elf = elf;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public Double getNiceScoreBonus() {
+        return niceScoreBonus;
+    }
+
+    /**
+     *
+     * @param niceScoreBonus
+     */
+    public void setNiceScoreBonus(Double niceScoreBonus) {
+        this.niceScoreBonus = niceScoreBonus;
+    }
 
     /**
      * @return

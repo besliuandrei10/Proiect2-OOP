@@ -1,2 +1,16 @@
 Starting audit...
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\database\AnnualChange.java:30:29: Parameter strategy should be final. [FinalParameters]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\database\Child.java:46:24: Parameter elf should be final. [FinalParameters]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\database\Child.java:62:35: Parameter niceScoreBonus should be final. [FinalParameters]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\database\ChildUpdate.java:32:24: Parameter elf should be final. [FinalParameters]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\io\Parser.java:32:62: Parameter string should be final. [FinalParameters]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\io\Parser.java:104: Line is longer than 100 characters (found 102). [LineLength]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\io\Parser.java:141: Line is longer than 100 characters (found 103). [LineLength]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\io\Parser.java:173: Line is longer than 100 characters (found 106). [LineLength]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Kid.java:42:63: '100' is a magic number. [MagicNumber]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Kid.java:44:13: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Teen.java:43:61: '100' is a magic number. [MagicNumber]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Teen.java:44: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Teen.java:45:13: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
+Checkstyle ends with 13 errors.

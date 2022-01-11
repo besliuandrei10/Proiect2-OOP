@@ -19,6 +19,10 @@ public enum ElvesType {
 
     private String value;
 
+    public String getValue() {
+        return value;
+    }
+
     ElvesType(final String value) {
         this.value = value;
     }

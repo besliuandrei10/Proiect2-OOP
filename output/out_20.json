@@ -6,7 +6,7 @@
       "niceScoreHistory" : [ 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys", "Sweets" ],
-      "assignedBudget" : 669.0,
+      "assignedBudget" : 568.1528662420383,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -18,14 +18,14 @@
         "productName" : "Gummy Bears"
       } ],
       "age" : 12,
-      "averageScore" : 9.0
+      "averageScore" : 10.0
     }, {
       "lastName" : "Popescu",
       "firstName" : "Miruna",
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Board Games", "Technology", "Sweets", "Books" ],
-      "assignedBudget" : 223.0,
+      "assignedBudget" : 323.8471337579618,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -41,7 +41,7 @@
         "productName" : "Diary of a Wimpy Kid"
       } ],
       "age" : 14,
-      "averageScore" : 3.0
+      "averageScore" : 5.7
     } ]
   }, {
     "children" : [ {
@@ -50,7 +50,7 @@
       "niceScoreHistory" : [ 9.0, 4.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys", "Sweets" ],
-      "assignedBudget" : 303.28,
+      "assignedBudget" : 341.0588235294118,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -62,14 +62,14 @@
         "productName" : "Gummy Bears"
       } ],
       "age" : 13,
-      "averageScore" : 5.666666666666667
+      "averageScore" : 7.366666666666667
     }, {
       "lastName" : "Popescu",
       "firstName" : "Miruna",
       "niceScoreHistory" : [ 3.0, 0.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Board Games", "Sweets", "Technology", "Books" ],
-      "assignedBudget" : 53.519999999999996,
+      "assignedBudget" : 87.96539792387543,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -85,14 +85,14 @@
         "productName" : "Diary of a Wimpy Kid"
       } ],
       "age" : 15,
-      "averageScore" : 1.0
+      "averageScore" : 1.9
     }, {
       "lastName" : "Popa",
       "firstName" : "Miruna",
       "niceScoreHistory" : [ 9.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Board Games", "Toys", "Sweets", "Books" ],
-      "assignedBudget" : 535.1999999999999,
+      "assignedBudget" : 462.97577854671283,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -121,7 +121,7 @@
       "niceScoreHistory" : [ 9.0, 4.0, 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys", "Sweets" ],
-      "assignedBudget" : 338.3448275862069,
+      "assignedBudget" : 313.4054054054054,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -133,14 +133,14 @@
         "productName" : "Gummy Bears"
       } ],
       "age" : 14,
-      "averageScore" : 7.333333333333333
+      "averageScore" : 9.533333333333333
     }, {
       "lastName" : "Popescu",
       "firstName" : "Miruna",
       "niceScoreHistory" : [ 3.0, 0.0, 7.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Sweets", "Books", "Board Games", "Technology" ],
-      "assignedBudget" : 184.55172413793105,
+      "assignedBudget" : 249.84766584766584,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -156,14 +156,14 @@
         "productName" : "Uno"
       } ],
       "age" : 16,
-      "averageScore" : 4.0
+      "averageScore" : 7.6
     }, {
       "lastName" : "Popa",
       "firstName" : "Miruna",
       "niceScoreHistory" : [ 9.0, 7.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Board Games", "Toys", "Sweets", "Books" ],
-      "assignedBudget" : 369.1034482758621,
+      "assignedBudget" : 328.74692874692875,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -183,7 +183,7 @@
         "productName" : "Diary of a Wimpy Kid"
       } ],
       "age" : 5,
-      "averageScore" : 8.0
+      "averageScore" : 10.0
     } ]
   }, {
     "children" : [ {
@@ -192,7 +192,7 @@
       "niceScoreHistory" : [ 9.0, 4.0, 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
-      "assignedBudget" : 132.47596153846155,
+      "assignedBudget" : 120.81450252951097,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -208,14 +208,14 @@
         "productName" : "Gummy Bears"
       } ],
       "age" : 15,
-      "averageScore" : 7.333333333333333
+      "averageScore" : 9.533333333333333
     }, {
       "lastName" : "Popescu",
       "firstName" : "Miruna",
       "niceScoreHistory" : [ 3.0, 0.0, 7.0, 10.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Sweets", "Books", "Board Games", "Technology" ],
-      "assignedBudget" : 115.61538461538463,
+      "assignedBudget" : 126.72849915682968,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -231,14 +231,14 @@
         "productName" : "Uno"
       } ],
       "age" : 17,
-      "averageScore" : 6.4
+      "averageScore" : 10.0
     }, {
       "lastName" : "Popa",
       "firstName" : "Miruna",
       "niceScoreHistory" : [ 9.0, 7.0, 2.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Board Games", "Toys", "Sweets", "Books" ],
-      "assignedBudget" : 108.38942307692308,
+      "assignedBudget" : 126.72849915682968,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -258,14 +258,14 @@
         "productName" : "Diary of a Wimpy Kid"
       } ],
       "age" : 6,
-      "averageScore" : 6.0
+      "averageScore" : 10.0
     }, {
       "lastName" : "Popa",
       "firstName" : "Miruna",
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 144.51923076923077,
+      "assignedBudget" : 126.72849915682968,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -273,7 +273,7 @@
         "productName" : "Bike"
       } ],
       "age" : 8,
-      "averageScore" : 8.0
+      "averageScore" : 10.0
     } ]
   } ]
 }

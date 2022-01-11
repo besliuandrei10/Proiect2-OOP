@@ -1,5 +1,6 @@
 package simulation;
 
+import common.Constants;
 import database.Child;
 
 import java.util.ArrayList;
@@ -36,6 +37,16 @@ public class Teen implements ChildAgeCategory {
             sum += niceHistory.get(i) * (i + 1);
             weights += (i + 1);
         }
-        return (Double) (sum / weights);
+
+        if (childRef.getNiceScoreBonus() != 0) {
+            Double score = (Double) (sum / weights);
+            score += score * childRef.getNiceScoreBonus() / 100;
+
+            if (score > Constants.BABY_NICESCORE)
+                return Constants.BABY_NICESCORE;
+            return score;
+        } else {
+            return (Double) (sum / weights);
+        }
     }
 }

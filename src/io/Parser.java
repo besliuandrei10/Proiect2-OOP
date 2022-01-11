@@ -7,6 +7,8 @@ import database.Database;
 import database.Gift;
 import enums.Category;
 import enums.Cities;
+import enums.CityStrategyEnum;
+import enums.ElvesType;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -21,6 +23,27 @@ public final class Parser {
 
     private Parser() {
 
+    }
+
+    /**
+     *
+     * @return
+     */
+    private static CityStrategyEnum stringToCityStrategyEnum(String string) {
+        switch (string) {
+            case "id" -> {
+                return CityStrategyEnum.ID;
+            }
+            case "niceScore" -> {
+                return CityStrategyEnum.NICE_SCORE;
+            }
+            case "niceScoreCity" -> {
+                return CityStrategyEnum.NICE_SCORE_CITY;
+            }
+            default -> {
+            }
+        }
+        return null;
     }
     /**
      * @param city
@@ -77,6 +100,8 @@ public final class Parser {
             child.setFirstName((String) jsonChild.get("firstName"));
             child.setLastName((String) jsonChild.get("lastName"));
             child.setNiceScore(Double.valueOf((Long) jsonChild.get("niceScore")));
+            child.setNiceScoreBonus(Double.valueOf((Long) jsonChild.get("niceScoreBonus")));
+            child.setElf(ElvesType.valueOf(jsonChild.get("elf").toString().toUpperCase(Locale.ROOT)));
 
             ArrayList<String> giftPreference =
                     (ArrayList<String>) jsonChild.get("giftsPreferences");
@@ -113,7 +138,7 @@ public final class Parser {
 
             annualChange.setNewSantaBudget(Double.valueOf(
                     (Long) jsonChanges.get("newSantaBudget")));
-
+            annualChange.setStrategy(stringToCityStrategyEnum(jsonChanges.get("strategy").toString()));
             // parse newGifts
             JSONArray newGifts = (JSONArray) jsonChanges.get("newGifts");
             for (Object o2 : newGifts) {
@@ -144,6 +169,8 @@ public final class Parser {
                 child.setFirstName((String) jsonChild.get("firstName"));
                 child.setLastName((String) jsonChild.get("lastName"));
                 child.setNiceScore(Double.valueOf((Long) jsonChild.get("niceScore")));
+                child.setNiceScoreBonus(Double.valueOf((Long) jsonChild.get("niceScoreBonus")));
+                child.setElf(ElvesType.valueOf(jsonChild.get("elf").toString().toUpperCase(Locale.ROOT)));
 
                 ArrayList<String> giftPreference =
                         (ArrayList<String>) jsonChild.get("giftsPreferences");
@@ -175,6 +202,11 @@ public final class Parser {
                     childUpdate.addNewPreferences(Category.valueOf(enumReady));
                 }
 
+                if (jsonChildUpdate.get("elf") != null) {
+                    childUpdate.setElf(ElvesType.valueOf(
+                            jsonChildUpdate.get("elf").toString().toUpperCase(Locale.ROOT)));
+                }
+
                 // add updates to database
                 annualChange.addChildrenUpdates(childUpdate);
             }
@@ -182,4 +214,5 @@ public final class Parser {
         }
 
     }
+
 }

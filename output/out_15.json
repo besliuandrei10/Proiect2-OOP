@@ -6,7 +6,7 @@
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Books", "Clothes", "Toys" ],
-      "assignedBudget" : 184.44444444444446,
+      "assignedBudget" : 207.5,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -22,14 +22,14 @@
         "productName" : "Castle"
       } ],
       "age" : 5,
-      "averageScore" : 8.0
+      "averageScore" : 10.0
     }, {
       "lastName" : "Popa",
       "firstName" : "Andreea",
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes" ],
-      "assignedBudget" : 230.55555555555557,
+      "assignedBudget" : 207.5,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 45.0,
@@ -46,7 +46,7 @@
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Toys", "Books", "Clothes" ],
-      "assignedBudget" : 261.3333333333333,
+      "assignedBudget" : 294.0,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 15.0,
@@ -62,14 +62,14 @@
         "productName" : "Dress"
       } ],
       "age" : 6,
-      "averageScore" : 8.0
+      "averageScore" : 10.0
     }, {
       "lastName" : "Popa",
       "firstName" : "Andreea",
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 326.66666666666663,
+      "assignedBudget" : 294.0,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 45.0,
@@ -90,7 +90,7 @@
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
-      "assignedBudget" : 257.77777777777777,
+      "assignedBudget" : 290.0,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 45.0,
@@ -110,14 +110,14 @@
         "productName" : "Diary of a Wimpy Kid"
       } ],
       "age" : 7,
-      "averageScore" : 8.0
+      "averageScore" : 10.0
     }, {
       "lastName" : "Popa",
       "firstName" : "Andreea",
       "niceScoreHistory" : [ 5.0, 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
-      "assignedBudget" : 322.22222222222223,
+      "assignedBudget" : 290.0,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 45.0,
@@ -142,7 +142,7 @@
       "niceScoreHistory" : [ 8.0, 3.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Books", "Clothes", "Toys", "Sweets" ],
-      "assignedBudget" : 147.25806451612902,
+      "assignedBudget" : 207.5,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -162,14 +162,14 @@
         "productName" : "Chocolate"
       } ],
       "age" : 8,
-      "averageScore" : 5.5
+      "averageScore" : 10.0
     }, {
       "lastName" : "Popa",
       "firstName" : "Andreea",
       "niceScoreHistory" : [ 5.0, 7.0, 6.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
-      "assignedBudget" : 267.741935483871,
+      "assignedBudget" : 207.5,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 45.0,

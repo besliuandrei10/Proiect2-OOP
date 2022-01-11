@@ -1,5 +1,7 @@
 package database;
 
+import enums.CityStrategyEnum;
+
 import java.util.ArrayList;
 
 public class AnnualChange {
@@ -10,6 +12,24 @@ public class AnnualChange {
     private ArrayList<Gift> newGifts = new ArrayList<>();
     private ArrayList<Child> newChildren = new ArrayList<>();
     private ArrayList<ChildUpdate> childrenUpdates = new ArrayList<>();
+
+    private CityStrategyEnum strategy;
+
+    /**
+     *
+     * @return
+     */
+    public CityStrategyEnum getStrategy() {
+        return strategy;
+    }
+
+    /**
+     *
+     * @param strategy
+     */
+    public void setStrategy(CityStrategyEnum strategy) {
+        this.strategy = strategy;
+    }
 
     /**
      *
