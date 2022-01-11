@@ -1,0 +1,215 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "lastName" : "Popescu",
+      "firstName" : "Tudor",
+      "niceScoreHistory" : [ 4.0 ],
+      "city" : "Timisoara",
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "assignedBudget" : 443.5,
+      "id" : 1,
+      "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
+      }, {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      } ],
+      "age" : 5,
+      "averageScore" : 4.0
+    }, {
+      "lastName" : "Ionescu",
+      "firstName" : "Matei",
+      "niceScoreHistory" : [ 4.0 ],
+      "city" : "Cluj-Napoca",
+      "giftsPreferences" : [ "Sweets", "Technology", "Toys" ],
+      "assignedBudget" : 443.5,
+      "id" : 3,
+      "receivedGifts" : [ {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      }, {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      } ],
+      "age" : 18,
+      "averageScore" : 4.0
+    } ]
+  }, {
+    "children" : [ {
+      "lastName" : "Popescu",
+      "firstName" : "Tudor",
+      "niceScoreHistory" : [ 4.0, 8.0 ],
+      "city" : "Timisoara",
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "assignedBudget" : 814.0,
+      "id" : 1,
+      "receivedGifts" : [ {
+        "price" : 200.0,
+        "category" : "Clothes",
+        "productName" : "Handbag"
+      }, {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
+      }, {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      } ],
+      "age" : 6,
+      "averageScore" : 6.0
+    } ]
+  }, {
+    "children" : [ {
+      "lastName" : "Popescu",
+      "firstName" : "Tudor",
+      "niceScoreHistory" : [ 4.0, 8.0, 8.0 ],
+      "city" : "Timisoara",
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "assignedBudget" : 71.05263157894737,
+      "id" : 1,
+      "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
+      }, {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      } ],
+      "age" : 7,
+      "averageScore" : 6.666666666666667
+    }, {
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "niceScoreHistory" : [ 6.0 ],
+      "city" : "Braila",
+      "giftsPreferences" : [ "Sweets" ],
+      "assignedBudget" : 63.94736842105263,
+      "id" : 5,
+      "receivedGifts" : [ {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      } ],
+      "age" : 10,
+      "averageScore" : 6.0
+    } ]
+  }, {
+    "children" : [ {
+      "lastName" : "Popescu",
+      "firstName" : "Tudor",
+      "niceScoreHistory" : [ 4.0, 8.0, 8.0, 1.0 ],
+      "city" : "Timisoara",
+      "giftsPreferences" : [ "Toys", "Clothes", "Board Games" ],
+      "assignedBudget" : 413.93333333333334,
+      "id" : 1,
+      "receivedGifts" : [ {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      }, {
+        "price" : 200.0,
+        "category" : "Clothes",
+        "productName" : "Handbag"
+      }, {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
+      } ],
+      "age" : 8,
+      "averageScore" : 5.25
+    }, {
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "niceScoreHistory" : [ 6.0 ],
+      "city" : "Braila",
+      "giftsPreferences" : [ "Toys", "Sweets" ],
+      "assignedBudget" : 473.0666666666667,
+      "id" : 5,
+      "receivedGifts" : [ {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      }, {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      } ],
+      "age" : 11,
+      "averageScore" : 6.0
+    } ]
+  }, {
+    "children" : [ {
+      "lastName" : "Popescu",
+      "firstName" : "Tudor",
+      "niceScoreHistory" : [ 4.0, 8.0, 8.0, 1.0 ],
+      "city" : "Timisoara",
+      "giftsPreferences" : [ "Board Games", "Clothes", "Toys" ],
+      "assignedBudget" : 269.95652173913044,
+      "id" : 1,
+      "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
+      }, {
+        "price" : 45.0,
+        "category" : "Clothes",
+        "productName" : "Dress"
+      }, {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      } ],
+      "age" : 9,
+      "averageScore" : 5.25
+    }, {
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "niceScoreHistory" : [ 6.0 ],
+      "city" : "Braila",
+      "giftsPreferences" : [ "Clothes", "Toys", "Sweets" ],
+      "assignedBudget" : 308.52173913043475,
+      "id" : 5,
+      "receivedGifts" : [ {
+        "price" : 45.0,
+        "category" : "Clothes",
+        "productName" : "Dress"
+      }, {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      }, {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      } ],
+      "age" : 12,
+      "averageScore" : 6.0
+    }, {
+      "lastName" : "Stoica",
+      "firstName" : "Andreea",
+      "niceScoreHistory" : [ 6.0 ],
+      "city" : "Braila",
+      "giftsPreferences" : [ "Board Games", "Clothes" ],
+      "assignedBudget" : 308.52173913043475,
+      "id" : 6,
+      "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
+      }, {
+        "price" : 45.0,
+        "category" : "Clothes",
+        "productName" : "Dress"
+      } ],
+      "age" : 14,
+      "averageScore" : 6.0
+    } ]
+  } ]
+}

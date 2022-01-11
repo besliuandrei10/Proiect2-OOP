@@ -36,6 +36,10 @@ public enum Cities {
 
     private String value;
 
+    public String getValue() {
+        return value;
+    }
+
     Cities(final String value) {
         this.value = value;
     }
