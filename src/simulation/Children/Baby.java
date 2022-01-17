@@ -1,8 +1,9 @@
-package simulation;
+package simulation.Children;
 
+import common.Constants;
 import database.Child;
 
-public class YoungAdult implements ChildAgeCategory {
+public class Baby implements ChildAgeCategory {
 
     private Child childRef;
 
@@ -13,10 +14,7 @@ public class YoungAdult implements ChildAgeCategory {
         return childRef;
     }
 
-    /**
-     * @param child
-     */
-    public YoungAdult(final Child child) {
+    public Baby(final Child child) {
         childRef = child;
     }
 
@@ -25,6 +23,6 @@ public class YoungAdult implements ChildAgeCategory {
      */
     @Override
     public Double calculateAverageScore() {
-        return null;
+        return Constants.BABY_NICESCORE;
     }
 }

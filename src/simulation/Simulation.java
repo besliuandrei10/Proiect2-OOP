@@ -8,9 +8,22 @@ import database.ChildUpdate;
 import database.Database;
 import database.Gift;
 import enums.Category;
+import enums.CityStrategyEnum;
+import enums.ElvesType;
 import io.Writer;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import simulation.Children.Baby;
+import simulation.Children.ChildAgeCategory;
+import simulation.Children.Kid;
+import simulation.Children.Teen;
+import simulation.Elves.BlackVisitor;
+import simulation.Elves.PinkVisitor;
+import simulation.Elves.YellowVisitor;
+import simulation.Strategies.GiftStrategy;
+import simulation.Strategies.byID;
+import simulation.Strategies.byNiceScore;
+import simulation.Strategies.byNiceScoreCity;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,6 +33,7 @@ import java.util.LinkedList;
 public class Simulation {
 
     private JSONArray annualChanges;
+    private CityStrategyEnum strategy = CityStrategyEnum.ID;
 
     public Simulation() {
 
@@ -57,6 +71,7 @@ public class Simulation {
 
         AnnualChange changes = Database.getInstance().getChanges().get(year);
         Database.getInstance().setSantaBudget(changes.getNewSantaBudget());
+        this.strategy = changes.getStrategy();
 
         for (Child child : changes.getNewChildren()) {
             Database.getInstance().addToChildList(child);
@@ -84,6 +99,9 @@ public class Simulation {
                         update.getNewPreferences().removeLast();
                     }
                 }
+                if (update.getElf() != null) {
+                    child.setElf(update.getElf());
+                }
             }
         }
     }
@@ -92,27 +110,16 @@ public class Simulation {
      * Distributes gifts according to preferences
      */
     private void distributeGifts() {
-        for (Child child : Database.getInstance().getChildList()) {
-            Double remainingBudget = child.getAllocatedBudget();
 
-            for (Category category : child.getGiftsPreferences()) {
-                Gift selectedGift = null;
-                Double selectedGiftPrice = Double.MAX_VALUE;
-
-                for (Gift gift : Database.getInstance().getGiftList()) {
-                    if (gift.getCategory().equals(category)) {
-                        if (selectedGiftPrice > gift.getPrice()) {
-                            selectedGift = gift;
-                            selectedGiftPrice = gift.getPrice();
-                        }
-                    }
-                }
-                if (remainingBudget - selectedGiftPrice > 0) {
-                    child.addToReceivedGifts(selectedGift);
-                    remainingBudget -= selectedGiftPrice;
-                }
-            }
+        GiftStrategy strategy;
+        switch (this.strategy) {
+            case ID -> strategy = new byID();
+            case NICE_SCORE -> strategy = new byNiceScore();
+            case NICE_SCORE_CITY -> strategy = new byNiceScoreCity();
+            default -> throw new IllegalStateException("Unexpected value: " + this.strategy);
         }
+
+        strategy.distributeGifts();
     }
 
     /**
@@ -142,8 +149,38 @@ public class Simulation {
             category.getChildRef().setAverageScore(score);
         }
         this.allocateBudget();
+        this.BlackAndPinkElves();
         this.distributeGifts();
+        this.YellowElves();
 
+        Database.getInstance().sortChildList();
+    }
+
+    /**
+     *  Black And Pink Elves apply their effects.
+     */
+    private void BlackAndPinkElves() {
+        BlackVisitor blackElf = new BlackVisitor();
+        PinkVisitor pinkElf = new PinkVisitor();
+
+        for (Child child : Database.getInstance().getChildList()) {
+            switch (child.getElf()) {
+                case BLACK -> child.accept(blackElf);
+                case PINK -> child.accept(pinkElf);
+            }
+        }
+    }
+
+    /**
+     * Yellow Elves enter the frey.
+     */
+    private void YellowElves() {
+        YellowVisitor yellowElf = new YellowVisitor();
+        for (Child child : Database.getInstance().getChildList()) {
+            if (child.getElf().equals(ElvesType.YELLOW)) {
+                child.accept(yellowElf);
+            }
+        }
     }
 
     /**

@@ -51,13 +51,13 @@
       "assignedBudget" : 106.93103448275862,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 30.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Monopoly"
       }, {
-        "price" : 10.0,
+        "price" : 30.0,
         "category" : "Toys",
-        "productName" : "Doll"
+        "productName" : "Lego"
       }, {
         "price" : 30.0,
         "category" : "Books",
@@ -74,13 +74,9 @@
       "assignedBudget" : 152.75862068965517,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 30.0,
         "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
+        "productName" : "Monopoly"
       } ],
       "age" : 2,
       "averageScore" : 10.0
@@ -95,13 +91,13 @@
       "assignedBudget" : 116.28750000000001,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
         "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      }, {
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Twilight"
+        "productName" : "Harry Potter"
       } ],
       "age" : 5,
       "averageScore" : 7.0
@@ -114,13 +110,9 @@
       "assignedBudget" : 77.525,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 30.0,
         "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
+        "productName" : "Monopoly"
       }, {
         "price" : 10.0,
         "category" : "Sweets",
@@ -137,17 +129,13 @@
       "assignedBudget" : 83.0625,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      }, {
         "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      }, {
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Twilight"
+        "productName" : "Harry Potter"
       } ],
       "age" : 10,
       "averageScore" : 5.0
@@ -160,13 +148,9 @@
       "assignedBudget" : 166.125,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
+        "productName" : "Puzzle"
       } ],
       "age" : 3,
       "averageScore" : 10.0
@@ -181,13 +165,13 @@
       "assignedBudget" : 126.57142857142857,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Puzzle"
       }, {
-        "price" : 30.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Twilight"
+        "productName" : "Harry Potter"
       } ],
       "age" : 6,
       "averageScore" : 8.0
@@ -200,13 +184,9 @@
       "assignedBudget" : 84.38095238095238,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
+        "productName" : "Puzzle"
       }, {
         "price" : 10.0,
         "category" : "Sweets",
@@ -223,17 +203,9 @@
       "assignedBudget" : 73.83333333333334,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      }, {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
       } ],
       "age" : 11,
       "averageScore" : 4.666666666666667
@@ -245,15 +217,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "assignedBudget" : 158.21428571428572,
       "id" : 3,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 4,
       "averageScore" : 10.0
     } ]
@@ -266,15 +230,7 @@
       "giftsPreferences" : [ "Board Games", "Books" ],
       "assignedBudget" : 150.92184368737475,
       "id" : 0,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 7,
       "averageScore" : 8.5
     }, {
@@ -287,16 +243,12 @@
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      }, {
-        "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
+      }, {
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
       } ],
       "age" : 14,
       "averageScore" : 5.6
@@ -309,17 +261,9 @@
       "assignedBudget" : 108.30861723446894,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      }, {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
       } ],
       "age" : 12,
       "averageScore" : 6.1
@@ -331,15 +275,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "assignedBudget" : 84.33867735470943,
       "id" : 3,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 5,
       "averageScore" : 4.75
     } ]
@@ -352,15 +288,7 @@
       "giftsPreferences" : [ "Board Games", "Books" ],
       "assignedBudget" : 155.936,
       "id" : 0,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 8,
       "averageScore" : 8.8
     }, {
@@ -372,14 +300,6 @@
       "assignedBudget" : 101.59466666666665,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
@@ -399,17 +319,9 @@
       "assignedBudget" : 107.50133333333332,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      }, {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
       } ],
       "age" : 13,
       "averageScore" : 6.066666666666666
@@ -421,15 +333,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "assignedBudget" : 77.968,
       "id" : 3,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 6,
       "averageScore" : 4.4
     } ]
@@ -442,15 +346,7 @@
       "giftsPreferences" : [ "Board Games", "Books" ],
       "assignedBudget" : 148.98042704626334,
       "id" : 0,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 9,
       "averageScore" : 9.0
     }, {
@@ -462,14 +358,6 @@
       "assignedBudget" : 96.16725978647688,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
@@ -484,19 +372,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books", "Clothes" ],
       "assignedBudget" : 109.567615658363,
       "id" : 2,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      }, {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 14,
       "averageScore" : 6.619047619047619
     }, {
@@ -507,15 +383,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "assignedBudget" : 88.2846975088968,
       "id" : 3,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 7,
       "averageScore" : 5.333333333333333
     } ]

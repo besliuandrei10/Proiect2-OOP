@@ -126,6 +126,9 @@ public final class Parser {
             String category = (String) jsonGift.get("category");
             gift.setCategory(Category.valueOf(Parser.giftCatToEnum(category)));
 
+            Long quantity = (Long) jsonGift.get("quantity");
+            gift.setQuantity(quantity);
+
             // add gift to database
             Database.getInstance().addToGiftsList(gift);
         }
@@ -150,6 +153,9 @@ public final class Parser {
 
                 String category = (String) jsonGift.get("category");
                 gift.setCategory(Category.valueOf(Parser.giftCatToEnum(category)));
+
+                Long quantity = (Long) jsonGift.get("quantity");
+                gift.setQuantity(quantity);
 
                 // add gift to annualchange
                 annualChange.addNewGifts(gift);

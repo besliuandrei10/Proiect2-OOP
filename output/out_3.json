@@ -78,9 +78,9 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -103,9 +103,9 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -137,9 +137,9 @@
         "category" : "Board Games",
         "productName" : "Uno"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
         "price" : 45.0,
         "category" : "Clothes",
@@ -168,9 +168,9 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 5.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Castle"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -189,13 +189,13 @@
       "assignedBudget" : 103.15044247787613,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Sweets",
-        "productName" : "Chocolate"
+        "productName" : "Bag of Candy"
       }, {
-        "price" : 5.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Castle"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -227,13 +227,13 @@
         "category" : "Clothes",
         "productName" : "Dress"
       }, {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Sweets",
-        "productName" : "Chocolate"
+        "productName" : "Bag of Candy"
       }, {
-        "price" : 5.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Castle"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -267,13 +267,13 @@
         "category" : "Clothes",
         "productName" : "Dress"
       }, {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Sweets",
-        "productName" : "Chocolate"
+        "productName" : "Bag of Candy"
       }, {
-        "price" : 5.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Castle"
       }, {
         "price" : 10.0,
         "category" : "Board Games",

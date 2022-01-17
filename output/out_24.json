@@ -90,7 +90,7 @@
       "niceScoreHistory" : [ 6.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 69.82758620689654,
+      "assignedBudget" : 90.77586206896551,
       "id" : 5,
       "receivedGifts" : [ {
         "price" : 20.0,
@@ -110,9 +110,9 @@
       "assignedBudget" : 375.7608069164265,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
         "price" : 200.0,
         "category" : "Clothes",
@@ -133,9 +133,9 @@
       "assignedBudget" : 511.23919308357347,
       "id" : 5,
       "receivedGifts" : [ {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
         "price" : 20.0,
         "category" : "Sweets",
@@ -162,9 +162,9 @@
         "category" : "Clothes",
         "productName" : "Dress"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       } ],
       "age" : 9,
       "averageScore" : 7.35
@@ -174,16 +174,16 @@
       "niceScoreHistory" : [ 6.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Toys", "Sweets" ],
-      "assignedBudget" : 370.35490605427975,
+      "assignedBudget" : 481.46137787056364,
       "id" : 5,
       "receivedGifts" : [ {
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
         "price" : 20.0,
         "category" : "Sweets",

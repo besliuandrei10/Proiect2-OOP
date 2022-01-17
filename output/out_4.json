@@ -89,10 +89,6 @@
       "assignedBudget" : 153.2,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
-      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
@@ -112,9 +108,9 @@
       "assignedBudget" : 612.8,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 100.0,
+        "price" : 500.0,
         "category" : "Technology",
-        "productName" : "Headphones"
+        "productName" : "Laptop"
       } ],
       "age" : 3,
       "averageScore" : 10.0

@@ -6,7 +6,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Sweets", "Board Games", "Books", "Technology", "Toys" ],
-      "assignedBudget" : 934.0,
+      "assignedBudget" : 653.8,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 20.0,
@@ -20,10 +20,6 @@
         "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
-      }, {
-        "price" : 700.0,
-        "category" : "Technology",
-        "productName" : "Iphone"
       }, {
         "price" : 20.0,
         "category" : "Toys",

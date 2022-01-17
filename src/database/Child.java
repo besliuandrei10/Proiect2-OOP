@@ -5,11 +5,13 @@ import enums.Cities;
 import enums.ElvesType;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import simulation.Visitable;
+import simulation.Visitor;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Child {
+public class Child implements Visitable {
 
     public Child() { }
 
@@ -297,5 +299,10 @@ public class Child {
                 ", giftsPreferences=" + giftsPreferences
                 +
                 '}';
+    }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
     }
 }

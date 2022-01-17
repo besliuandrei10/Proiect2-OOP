@@ -6,7 +6,7 @@
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Board Games", "Toys", "Technology" ],
-      "assignedBudget" : 218.73949579831933,
+      "assignedBudget" : 284.3613445378151,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 30.0,
@@ -48,7 +48,7 @@
       "niceScoreHistory" : [ 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Books", "Technology" ],
-      "assignedBudget" : 383.7535014005602,
+      "assignedBudget" : 498.87955182072824,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -67,12 +67,12 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Books", "Sweets", "Clothes" ],
-      "assignedBudget" : 383.7535014005602,
+      "assignedBudget" : 268.62745098039215,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 25.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "productName" : "Harry Potter"
       }, {
         "price" : 15.0,
         "category" : "Sweets",
@@ -92,12 +92,12 @@
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Books", "Sweets", "Board Games", "Toys", "Technology" ],
-      "assignedBudget" : 218.73949579831933,
+      "assignedBudget" : 153.11764705882354,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 25.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "productName" : "Harry Potter"
       }, {
         "price" : 15.0,
         "category" : "Sweets",
@@ -110,10 +110,6 @@
         "price" : 15.0,
         "category" : "Toys",
         "productName" : "Castle"
-      }, {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
       } ],
       "age" : 15,
       "averageScore" : 5.7
@@ -126,9 +122,9 @@
       "assignedBudget" : 383.7535014005602,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 25.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "productName" : "Harry Potter"
       }, {
         "price" : 15.0,
         "category" : "Sweets",
@@ -141,10 +137,6 @@
         "price" : 70.0,
         "category" : "Clothes",
         "productName" : "Shoes"
-      }, {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
       } ],
       "age" : 11,
       "averageScore" : 10.0
@@ -157,21 +149,17 @@
       "assignedBudget" : 383.7535014005602,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
-      }, {
         "price" : 15.0,
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 70.0,
+        "price" : 200.0,
         "category" : "Clothes",
-        "productName" : "Shoes"
+        "productName" : "Handbag"
       }, {
-        "price" : 25.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "productName" : "Harry Potter"
       } ],
       "age" : 15,
       "averageScore" : 10.0
@@ -184,21 +172,17 @@
       "assignedBudget" : 383.7535014005602,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 30.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Monopoly"
+        "productName" : "Puzzle"
       }, {
-        "price" : 25.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "productName" : "Harry Potter"
       }, {
         "price" : 15.0,
         "category" : "Sweets",
         "productName" : "Chocolate"
-      }, {
-        "price" : 70.0,
-        "category" : "Clothes",
-        "productName" : "Shoes"
       } ],
       "age" : 7,
       "averageScore" : 10.0
@@ -214,8 +198,8 @@
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
+        "category" : "Toys",
+        "productName" : "Castle"
       } ],
       "age" : 16,
       "averageScore" : 3.166666666666667
@@ -228,17 +212,13 @@
       "assignedBudget" : 76.28140703517586,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 25.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "productName" : "Harry Potter"
       }, {
-        "price" : 15.0,
+        "price" : 30.0,
         "category" : "Sweets",
-        "productName" : "Chocolate"
-      }, {
-        "price" : 15.0,
-        "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Milk and Cookies"
       } ],
       "age" : 12,
       "averageScore" : 10.0
@@ -251,17 +231,13 @@
       "assignedBudget" : 76.28140703517586,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 30.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Monopoly"
+        "productName" : "Puzzle"
       }, {
         "price" : 15.0,
         "category" : "Sweets",
         "productName" : "Chocolate"
-      }, {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
       } ],
       "age" : 16,
       "averageScore" : 10.0
@@ -274,17 +250,17 @@
       "assignedBudget" : 76.28140703517586,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 25.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "productName" : "Harry Potter"
       }, {
         "price" : 15.0,
         "category" : "Toys",
         "productName" : "Castle"
       }, {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
+        "price" : 15.0,
+        "category" : "Sweets",
+        "productName" : "Chocolate"
       } ],
       "age" : 8,
       "averageScore" : 10.0
@@ -299,17 +275,17 @@
       "assignedBudget" : 83.04401049256776,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
-      }, {
         "price" : 15.0,
         "category" : "Toys",
         "productName" : "Castle"
       }, {
-        "price" : 25.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "productName" : "Harry Potter"
+      }, {
+        "price" : 30.0,
+        "category" : "Sweets",
+        "productName" : "Milk and Cookies"
       } ],
       "age" : 17,
       "averageScore" : 7.283333333333333
@@ -319,20 +295,20 @@
       "niceScoreHistory" : [ 5.0, 7.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets", "Clothes" ],
-      "assignedBudget" : 114.01923637423492,
+      "assignedBudget" : 148.2250072865054,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 15.0,
         "category" : "Toys",
         "productName" : "Castle"
       }, {
-        "price" : 25.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "productName" : "Harry Potter"
       }, {
-        "price" : 15.0,
+        "price" : 30.0,
         "category" : "Sweets",
-        "productName" : "Chocolate"
+        "productName" : "Milk and Cookies"
       } ],
       "age" : 13,
       "averageScore" : 10.0
@@ -345,17 +321,9 @@
       "assignedBudget" : 114.01923637423492,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      }, {
         "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
-      }, {
-        "price" : 15.0,
         "category" : "Sweets",
-        "productName" : "Chocolate"
+        "productName" : "Milk and Cookies"
       } ],
       "age" : 17,
       "averageScore" : 10.0
@@ -365,12 +333,16 @@
       "niceScoreHistory" : [ 10.0, 2.0, 8.0, 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Technology", "Books", "Toys", "Board Games", "Sweets", "Clothes" ],
-      "assignedBudget" : 114.01923637423492,
+      "assignedBudget" : 79.81346546196444,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
+        "price" : 25.0,
+        "category" : "Toys",
+        "productName" : "Bike"
+      }, {
+        "price" : 30.0,
+        "category" : "Sweets",
+        "productName" : "Milk and Cookies"
       } ],
       "age" : 9,
       "averageScore" : 10.0
@@ -380,12 +352,12 @@
       "niceScoreHistory" : [ 9.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 112.87904401049258,
+      "assignedBudget" : 146.74275721364035,
       "id" : 4,
       "receivedGifts" : [ {
-        "price" : 15.0,
+        "price" : 25.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Bike"
       } ],
       "age" : 11,
       "averageScore" : 9.9
@@ -397,15 +369,7 @@
       "giftsPreferences" : [ "Board Games", "Books", "Clothes" ],
       "assignedBudget" : 114.01923637423492,
       "id" : 5,
-      "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
-      }, {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 1,
       "averageScore" : 10.0
     } ]
@@ -419,9 +383,9 @@
       "assignedBudget" : 29.3425975414217,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 15.0,
+        "price" : 25.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Bike"
       } ],
       "age" : 18,
       "averageScore" : 10.0
@@ -431,13 +395,9 @@
       "niceScoreHistory" : [ 5.0, 7.0, 6.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Board Games", "Toys", "Technology", "Books", "Sweets", "Clothes" ],
-      "assignedBudget" : 29.3425975414217,
+      "assignedBudget" : 20.53981827899519,
       "id" : 1,
-      "receivedGifts" : [ {
-        "price" : 15.0,
-        "category" : "Toys",
-        "productName" : "Castle"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 14,
       "averageScore" : 10.0
     }, {
@@ -448,11 +408,7 @@
       "giftsPreferences" : [ "Books", "Sweets", "Technology", "Board Games", "Clothes" ],
       "assignedBudget" : 29.3425975414217,
       "id" : 2,
-      "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 18,
       "averageScore" : 10.0
     }, {
@@ -465,8 +421,8 @@
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
+        "category" : "Toys",
+        "productName" : "Bike"
       } ],
       "age" : 10,
       "averageScore" : 10.0
@@ -478,11 +434,7 @@
       "giftsPreferences" : [ "Toys" ],
       "assignedBudget" : 20.442009620523784,
       "id" : 4,
-      "receivedGifts" : [ {
-        "price" : 15.0,
-        "category" : "Toys",
-        "productName" : "Castle"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 12,
       "averageScore" : 6.966666666666667
     }, {
@@ -493,11 +445,7 @@
       "giftsPreferences" : [ "Board Games", "Books", "Clothes" ],
       "assignedBudget" : 29.3425975414217,
       "id" : 5,
-      "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 2,
       "averageScore" : 10.0
     }, {
@@ -506,13 +454,9 @@
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Cluj-Napoca",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 15.84500267236772,
+      "assignedBudget" : 20.598503474078036,
       "id" : 7,
-      "receivedGifts" : [ {
-        "price" : 15.0,
-        "category" : "Toys",
-        "productName" : "Castle"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 12,
       "averageScore" : 5.4
     } ]
@@ -523,16 +467,12 @@
       "niceScoreHistory" : [ 5.0, 7.0, 6.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Board Games", "Technology", "Toys", "Books", "Sweets", "Clothes" ],
-      "assignedBudget" : 50.150021431633085,
+      "assignedBudget" : 35.10501500214316,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
-      }, {
-        "price" : 15.0,
-        "category" : "Toys",
-        "productName" : "Castle"
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
       } ],
       "age" : 15,
       "averageScore" : 10.0
@@ -542,16 +482,12 @@
       "niceScoreHistory" : [ 10.0, 2.0, 8.0, 5.0, 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Board Games", "Toys", "Technology", "Books", "Sweets", "Clothes" ],
-      "assignedBudget" : 50.150021431633085,
+      "assignedBudget" : 65.19502786112301,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
-      }, {
-        "price" : 15.0,
-        "category" : "Toys",
-        "productName" : "Castle"
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
       } ],
       "age" : 11,
       "averageScore" : 10.0
@@ -563,11 +499,7 @@
       "giftsPreferences" : [ "Toys" ],
       "assignedBudget" : 17.46892413201886,
       "id" : 4,
-      "receivedGifts" : [ {
-        "price" : 15.0,
-        "category" : "Toys",
-        "productName" : "Castle"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 13,
       "averageScore" : 3.4833333333333334
     }, {
@@ -578,11 +510,7 @@
       "giftsPreferences" : [ "Board Games", "Books", "Clothes" ],
       "assignedBudget" : 50.150021431633085,
       "id" : 5,
-      "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 3,
       "averageScore" : 10.0
     }, {
@@ -593,11 +521,7 @@
       "giftsPreferences" : [ "Books", "Toys" ],
       "assignedBudget" : 27.08101157308187,
       "id" : 7,
-      "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 13,
       "averageScore" : 5.4
     } ]
@@ -611,9 +535,13 @@
       "assignedBudget" : 108.57757461683248,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
+        "price" : 20.0,
+        "category" : "Toys",
+        "productName" : "Car"
+      }, {
+        "price" : 30.0,
+        "category" : "Sweets",
+        "productName" : "Milk and Cookies"
       } ],
       "age" : 16,
       "averageScore" : 10.0
@@ -626,21 +554,13 @@
       "assignedBudget" : 92.2909384243076,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
-      }, {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Car"
       }, {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      }, {
-        "price" : 15.0,
+        "price" : 30.0,
         "category" : "Sweets",
-        "productName" : "Chocolate"
+        "productName" : "Milk and Cookies"
       } ],
       "age" : 12,
       "averageScore" : 8.5
@@ -650,12 +570,12 @@
       "niceScoreHistory" : [ 9.0, 5.0, 0.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 37.82118849152998,
+      "assignedBudget" : 49.167545038988976,
       "id" : 4,
       "receivedGifts" : [ {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Car"
       } ],
       "age" : 14,
       "averageScore" : 3.4833333333333334
@@ -667,15 +587,7 @@
       "giftsPreferences" : [ "Board Games", "Books", "Clothes" ],
       "assignedBudget" : 108.57757461683248,
       "id" : 5,
-      "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
-      }, {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 4,
       "averageScore" : 10.0
     }, {
@@ -684,16 +596,12 @@
       "niceScoreHistory" : [ 3.0, 10.0 ],
       "city" : "Cluj-Napoca",
       "giftsPreferences" : [ "Books", "Toys" ],
-      "assignedBudget" : 108.57757461683248,
+      "assignedBudget" : 76.00430223178273,
       "id" : 7,
       "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      }, {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Car"
       } ],
       "age" : 14,
       "averageScore" : 10.0
@@ -703,12 +611,12 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 108.57757461683248,
+      "assignedBudget" : 141.15084700188223,
       "id" : 8,
       "receivedGifts" : [ {
-        "price" : 15.0,
+        "price" : 30.0,
         "category" : "Sweets",
-        "productName" : "Chocolate"
+        "productName" : "Milk and Cookies"
       } ],
       "age" : 11,
       "averageScore" : 10.0
@@ -718,16 +626,12 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Cluj-Napoca",
       "giftsPreferences" : [ "Toys", "Clothes" ],
-      "assignedBudget" : 108.57757461683248,
+      "assignedBudget" : 76.00430223178273,
       "id" : 9,
       "receivedGifts" : [ {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Castle"
-      }, {
-        "price" : 70.0,
-        "category" : "Clothes",
-        "productName" : "Shoes"
+        "productName" : "Car"
       } ],
       "age" : 4,
       "averageScore" : 10.0

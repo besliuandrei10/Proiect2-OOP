@@ -1,4 +1,4 @@
-package simulation;
+package simulation.Children;
 
 import common.Constants;
 import database.Child;

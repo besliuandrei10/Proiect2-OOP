@@ -6,7 +6,7 @@
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Technology", "Books" ],
-      "assignedBudget" : 404.0,
+      "assignedBudget" : 282.8,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 30.0,
@@ -21,7 +21,7 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Oradea",
       "giftsPreferences" : [ "Toys", "Board Games" ],
-      "assignedBudget" : 101.0,
+      "assignedBudget" : 70.7,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -40,7 +40,7 @@
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes", "Toys", "Board Games" ],
-      "assignedBudget" : 151.5,
+      "assignedBudget" : 106.05,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -59,7 +59,7 @@
       "niceScoreHistory" : [ 9.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Sweets", "Toys", "Board Games" ],
-      "assignedBudget" : 454.5,
+      "assignedBudget" : 318.15,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 15.0,
@@ -84,7 +84,7 @@
       "niceScoreHistory" : [ 8.0, 8.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Technology", "Books" ],
-      "assignedBudget" : 538.6666666666666,
+      "assignedBudget" : 377.0666666666666,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 30.0,
@@ -99,7 +99,7 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Oradea",
       "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys", "Board Games" ],
-      "assignedBudget" : 134.66666666666666,
+      "assignedBudget" : 94.26666666666665,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 30.0,
@@ -110,13 +110,9 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
+        "productName" : "Doll"
       } ],
       "age" : 9,
       "averageScore" : 2.0
@@ -126,7 +122,7 @@
       "niceScoreHistory" : [ 3.0, 10.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes", "Toys", "Board Games" ],
-      "assignedBudget" : 437.66666666666663,
+      "assignedBudget" : 306.3666666666667,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 200.0,
@@ -137,9 +133,9 @@
         "category" : "Toys",
         "productName" : "Teddy Bear"
       }, {
-        "price" : 30.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Monopoly"
+        "productName" : "Puzzle"
       } ],
       "age" : 11,
       "averageScore" : 6.5
@@ -151,7 +147,7 @@
       "niceScoreHistory" : [ 8.0, 8.0, 9.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Technology", "Books" ],
-      "assignedBudget" : 539.3203883495146,
+      "assignedBudget" : 377.52427184466023,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 30.0,
@@ -166,24 +162,20 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Oradea",
       "giftsPreferences" : [ "Technology", "Toys", "Board Games", "Books", "Sweets" ],
-      "assignedBudget" : 129.4368932038835,
+      "assignedBudget" : 90.60582524271845,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
-        "price" : 30.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Monopoly"
+        "productName" : "Puzzle"
       }, {
         "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
-      }, {
-        "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
       } ],
       "age" : 10,
       "averageScore" : 2.0
@@ -193,20 +185,20 @@
       "niceScoreHistory" : [ 3.0, 10.0, 6.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes", "Toys", "Board Games" ],
-      "assignedBudget" : 442.24271844660194,
+      "assignedBudget" : 309.5699029126214,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 200.0,
         "category" : "Clothes",
         "productName" : "Handbag"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
-        "price" : 30.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Monopoly"
+        "productName" : "Puzzle"
       } ],
       "age" : 12,
       "averageScore" : 6.833333333333333

@@ -1,6 +1,7 @@
 package database;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.LinkedList;
 
 public class Database {
@@ -128,5 +129,14 @@ public class Database {
      */
     public static Database getInstance() {
         return DATABASE;
+    }
+
+    public void sortChildList() {
+        this.childList.sort(new Comparator<Child>() {
+            @Override
+            public int compare(Child o1, Child o2) {
+                return o1.getId().compareTo(o2.getId());
+            }
+        });
     }
 }

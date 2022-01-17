@@ -53,10 +53,6 @@
       "assignedBudget" : 520.8,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Sweets",
-        "productName" : "Milk and Cookies"
-      }, {
         "price" : 100.0,
         "category" : "Technology",
         "productName" : "Headphones"
@@ -97,10 +93,6 @@
       "assignedBudget" : 381.91999999999996,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Sweets",
-        "productName" : "Milk and Cookies"
-      }, {
         "price" : 100.0,
         "category" : "Technology",
         "productName" : "Headphones"

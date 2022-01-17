@@ -56,10 +56,6 @@
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
       } ],
       "age" : 13,
       "averageScore" : 4.666666666666667
@@ -72,10 +68,6 @@
       "assignedBudget" : 648.4090909090908,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 45.0,
-        "category" : "Clothes",
-        "productName" : "Dress"
-      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"

@@ -28,9 +28,9 @@
       "assignedBudget" : 57.5,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
         "price" : 30.0,
         "category" : "Books",
@@ -51,9 +51,9 @@
         "category" : "Board Games",
         "productName" : "Monopoly"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       } ],
       "age" : 10,
       "averageScore" : 9.0
@@ -68,9 +68,9 @@
       "assignedBudget" : 16.046511627906977,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 5.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Castle"
       } ],
       "age" : 11,
       "averageScore" : 2.5
@@ -87,9 +87,9 @@
         "category" : "Board Games",
         "productName" : "Monopoly"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       } ],
       "age" : 18,
       "averageScore" : 10.0
@@ -102,9 +102,9 @@
       "assignedBudget" : 57.76744186046511,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
         "price" : 30.0,
         "category" : "Board Games",
@@ -131,13 +131,13 @@
         "category" : "Sweets",
         "productName" : "Bag of Candy"
       }, {
-        "price" : 5.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Castle"
       }, {
-        "price" : 30.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Monopoly"
+        "productName" : "Puzzle"
       } ],
       "age" : 12,
       "averageScore" : 2.3333333333333335
@@ -154,9 +154,9 @@
         "category" : "Technology",
         "productName" : "Headphones"
       }, {
-        "price" : 5.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Castle"
       }, {
         "price" : 30.0,
         "category" : "Books",
@@ -179,13 +179,13 @@
       "assignedBudget" : 134.06060606060606,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 30.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Monopoly"
+        "productName" : "Puzzle"
       }, {
-        "price" : 5.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Castle"
       }, {
         "price" : 20.0,
         "category" : "Sweets",
@@ -206,17 +206,13 @@
         "category" : "Technology",
         "productName" : "Headphones"
       }, {
-        "price" : 5.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Castle"
       }, {
         "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
-      }, {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
       } ],
       "age" : 13,
       "averageScore" : 3.1666666666666665

@@ -146,10 +146,6 @@
       "assignedBudget" : 617.3783783783783,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      }, {
         "price" : 30.0,
         "category" : "Board Games",
         "productName" : "Monopoly"
@@ -167,10 +163,6 @@
       "assignedBudget" : 661.7716535433071,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      }, {
         "price" : 70.0,
         "category" : "Clothes",
         "productName" : "Shoes"
@@ -186,10 +178,6 @@
       "assignedBudget" : 631.228346456693,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      }, {
         "price" : 30.0,
         "category" : "Board Games",
         "productName" : "Monopoly"

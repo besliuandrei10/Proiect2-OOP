@@ -35,10 +35,6 @@
         "price" : 10.0,
         "category" : "Toys",
         "productName" : "Doll"
-      }, {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
       } ],
       "age" : 16,
       "averageScore" : 3.0
@@ -53,10 +49,6 @@
       "assignedBudget" : 348.1578947368421,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
-      }, {
         "price" : 30.0,
         "category" : "Board Games",
         "productName" : "Monopoly"
@@ -79,10 +71,6 @@
         "price" : 10.0,
         "category" : "Toys",
         "productName" : "Doll"
-      }, {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
       } ],
       "age" : 17,
       "averageScore" : 7.666666666666667
@@ -101,13 +89,13 @@
         "category" : "Clothes",
         "productName" : "Dress"
       }, {
-        "price" : 10.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Doll"
+        "productName" : "Car"
       }, {
-        "price" : 100.0,
+        "price" : 500.0,
         "category" : "Technology",
-        "productName" : "Headphones"
+        "productName" : "Laptop"
       } ],
       "age" : 18,
       "averageScore" : 4.833333333333333

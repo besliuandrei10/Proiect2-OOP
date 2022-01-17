@@ -21,7 +21,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Sweets", "Board Games", "Technology", "Toys" ],
-      "assignedBudget" : 152.2556390977444,
+      "assignedBudget" : 106.57894736842107,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -31,10 +31,6 @@
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
-      }, {
-        "price" : 100.0,
-        "category" : "Technology",
-        "productName" : "Headphones"
       }, {
         "price" : 15.0,
         "category" : "Toys",
@@ -48,7 +44,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Board Games" ],
-      "assignedBudget" : 117.23684210526318,
+      "assignedBudget" : 82.06578947368422,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -63,12 +59,16 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Sweets", "Clothes" ],
-      "assignedBudget" : 51.766917293233085,
+      "assignedBudget" : 67.296992481203,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
+      }, {
+        "price" : 45.0,
+        "category" : "Clothes",
+        "productName" : "Dress"
       } ],
       "age" : 13,
       "averageScore" : 3.4
@@ -110,9 +110,9 @@
         "category" : "Sweets",
         "productName" : "Gummy Bears"
       }, {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Puzzle"
       }, {
         "price" : 100.0,
         "category" : "Technology",
@@ -133,9 +133,9 @@
       "assignedBudget" : 141.5740740740741,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Puzzle"
       } ],
       "age" : 9,
       "averageScore" : 5.5
@@ -171,9 +171,9 @@
         "category" : "Technology",
         "productName" : "Headphones"
       }, {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Puzzle"
       }, {
         "price" : 10.0,
         "category" : "Sweets",
@@ -189,16 +189,12 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Technology" ],
-      "assignedBudget" : 46.83725690890481,
+      "assignedBudget" : 60.888433981576256,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 15.0,
-        "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Puzzle"
       } ],
       "age" : 18,
       "averageScore" : 5.5
@@ -208,16 +204,16 @@
       "niceScoreHistory" : [ 4.0, 10.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Technology" ],
-      "assignedBudget" : 85.15864892528148,
+      "assignedBudget" : 110.70624360286592,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 20.0,
         "category" : "Sweets",
-        "productName" : "Gummy Bears"
+        "productName" : "Bag of Candy"
       }, {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Puzzle"
       }, {
         "price" : 15.0,
         "category" : "Toys",
@@ -234,17 +230,13 @@
       "assignedBudget" : 46.83725690890481,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 20.0,
         "category" : "Sweets",
-        "productName" : "Gummy Bears"
+        "productName" : "Bag of Candy"
       }, {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Car"
       } ],
       "age" : 10,
       "averageScore" : 5.5
@@ -256,11 +248,7 @@
       "giftsPreferences" : [ "Sweets", "Clothes" ],
       "assignedBudget" : 36.19242579324463,
       "id" : 3,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 15,
       "averageScore" : 4.25
     }, {
@@ -269,16 +257,12 @@
       "niceScoreHistory" : [ 8.0, 2.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Technology", "Board Games", "Sweets" ],
-      "assignedBudget" : 85.15864892528148,
+      "assignedBudget" : 59.61105424769704,
       "id" : 4,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
+        "productName" : "Puzzle"
       } ],
       "age" : 3,
       "averageScore" : 10.0
@@ -288,17 +272,9 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Technology", "Board Games", "Sweets" ],
-      "assignedBudget" : 30.657113613101334,
+      "assignedBudget" : 21.459979529170933,
       "id" : 5,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 6,
       "averageScore" : 3.6
     }, {
@@ -310,10 +286,6 @@
       "assignedBudget" : 85.15864892528148,
       "id" : 6,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
         "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
@@ -335,17 +307,9 @@
         "category" : "Books",
         "productName" : "Twilight"
       }, {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Car"
       } ],
       "age" : 5,
       "averageScore" : 10.0
@@ -358,13 +322,9 @@
       "assignedBudget" : 26.173550320192703,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
+        "price" : 25.0,
+        "category" : "Toys",
+        "productName" : "Bike"
       } ],
       "age" : 11,
       "averageScore" : 3.666666666666667
@@ -374,13 +334,9 @@
       "niceScoreHistory" : [ 2.0, 5.0, 1.0, 4.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
-      "assignedBudget" : 37.618530051113325,
+      "assignedBudget" : 26.33297103577933,
       "id" : 3,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 16,
       "averageScore" : 5.27
     }, {
@@ -389,16 +345,12 @@
       "niceScoreHistory" : [ 8.0, 2.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Sweets", "Board Games", "Technology" ],
-      "assignedBudget" : 71.38240996416191,
+      "assignedBudget" : 92.79713295341048,
       "id" : 4,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 10.0,
+        "price" : 50.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Puzzle"
       } ],
       "age" : 4,
       "averageScore" : 10.0
@@ -410,15 +362,7 @@
       "giftsPreferences" : [ "Books", "Technology", "Board Games", "Sweets" ],
       "assignedBudget" : 25.697667587098287,
       "id" : 5,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 7,
       "averageScore" : 3.6
     }, {
@@ -430,13 +374,9 @@
       "assignedBudget" : 71.38240996416191,
       "id" : 6,
       "receivedGifts" : [ {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Castle"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
+        "productName" : "Car"
       }, {
         "price" : 30.0,
         "category" : "Books",
@@ -453,13 +393,9 @@
       "assignedBudget" : 71.38240996416191,
       "id" : 7,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Car"
       } ],
       "age" : 4,
       "averageScore" : 10.0
@@ -469,7 +405,7 @@
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Technology", "Clothes" ],
-      "assignedBudget" : 29.980612184948004,
+      "assignedBudget" : 20.986428529463602,
       "id" : 8,
       "receivedGifts" : [ ],
       "age" : 6,
@@ -485,13 +421,9 @@
       "assignedBudget" : 33.62493165664298,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 15.0,
+        "price" : 25.0,
         "category" : "Toys",
-        "productName" : "Castle"
-      }, {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Bike"
       } ],
       "age" : 6,
       "averageScore" : 10.0
@@ -514,11 +446,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
       "assignedBudget" : 11.8135593220339,
       "id" : 3,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 17,
       "averageScore" : 3.5133333333333336
     }, {
@@ -529,11 +457,7 @@
       "giftsPreferences" : [ "Sweets", "Toys", "Board Games", "Technology" ],
       "assignedBudget" : 16.81246582832149,
       "id" : 4,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 5,
       "averageScore" : 5.0
     }, {
@@ -545,9 +469,9 @@
       "assignedBudget" : 12.104975396391472,
       "id" : 5,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
+        "price" : 100.0,
+        "category" : "Technology",
+        "productName" : "Headphones"
       } ],
       "age" : 8,
       "averageScore" : 3.6
@@ -560,13 +484,9 @@
       "assignedBudget" : 33.62493165664298,
       "id" : 6,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 15.0,
+        "price" : 25.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Bike"
       } ],
       "age" : 16,
       "averageScore" : 10.0
@@ -576,12 +496,12 @@
       "niceScoreHistory" : [ 3.0, 6.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 22.696828868234007,
+      "assignedBudget" : 29.50587752870421,
       "id" : 7,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
+        "price" : 25.0,
+        "category" : "Toys",
+        "productName" : "Bike"
       } ],
       "age" : 5,
       "averageScore" : 6.75
@@ -591,13 +511,9 @@
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets", "Toys", "Books", "Technology", "Clothes" ],
-      "assignedBudget" : 14.122471295790051,
+      "assignedBudget" : 18.359212684527066,
       "id" : 8,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 7,
       "averageScore" : 4.2
     }, {
@@ -606,13 +522,9 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Oradea",
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
-      "assignedBudget" : 11.432476763258611,
+      "assignedBudget" : 8.002733734281028,
       "id" : 9,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 16,
       "averageScore" : 3.4
     } ]

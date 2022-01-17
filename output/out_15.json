@@ -125,10 +125,6 @@
         "productName" : "Dress"
       }, {
         "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
-      }, {
-        "price" : 15.0,
         "category" : "Toys",
         "productName" : "Castle"
       } ],
@@ -156,10 +152,6 @@
         "price" : 15.0,
         "category" : "Toys",
         "productName" : "Castle"
-      }, {
-        "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
       } ],
       "age" : 8,
       "averageScore" : 10.0
@@ -175,10 +167,6 @@
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
-      }, {
-        "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
       }, {
         "price" : 15.0,
         "category" : "Toys",

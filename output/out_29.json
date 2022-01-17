@@ -6,7 +6,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Cluj-Napoca",
       "giftsPreferences" : [ "Sweets", "Toys", "Board Games" ],
-      "assignedBudget" : 163.12997347480106,
+      "assignedBudget" : 114.19098143236073,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -79,16 +79,16 @@
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Books" ],
-      "assignedBudget" : 163.12997347480106,
+      "assignedBudget" : 212.0689655172414,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
       }, {
-        "price" : 30.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Twilight"
+        "productName" : "Harry Potter"
       } ],
       "age" : 2,
       "averageScore" : 10.0
@@ -103,9 +103,9 @@
       "assignedBudget" : 207.41989881956155,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 20.0,
         "category" : "Sweets",
-        "productName" : "Gummy Bears"
+        "productName" : "Bag of Candy"
       }, {
         "price" : 10.0,
         "category" : "Toys",
@@ -126,17 +126,13 @@
       "assignedBudget" : 74.67116357504216,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
         "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
+        "category" : "Sweets",
+        "productName" : "Milk and Cookies"
       }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
+        "price" : 35.0,
+        "category" : "Books",
+        "productName" : "Harry Potter"
       } ],
       "age" : 18,
       "averageScore" : 3.6
@@ -157,13 +153,13 @@
         "category" : "Toys",
         "productName" : "Doll"
       }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
         "price" : 30.0,
+        "category" : "Sweets",
+        "productName" : "Milk and Cookies"
+      }, {
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Twilight"
+        "productName" : "Harry Potter"
       } ],
       "age" : 6,
       "averageScore" : 6.05
@@ -173,20 +169,16 @@
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Toys", "Sweets", "Books" ],
-      "assignedBudget" : 207.41989881956155,
+      "assignedBudget" : 145.1939291736931,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 10.0,
         "category" : "Toys",
         "productName" : "Doll"
       }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 30.0,
+        "price" : 35.0,
         "category" : "Books",
-        "productName" : "Twilight"
+        "productName" : "Harry Potter"
       } ],
       "age" : 3,
       "averageScore" : 10.0
@@ -201,17 +193,9 @@
       "assignedBudget" : 190.12738853503183,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      }, {
         "price" : 10.0,
         "category" : "Toys",
         "productName" : "Doll"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -228,10 +212,6 @@
       "assignedBudget" : 111.54140127388534,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
@@ -239,10 +219,6 @@
         "price" : 10.0,
         "category" : "Toys",
         "productName" : "Doll"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
       } ],
       "age" : 7,
       "averageScore" : 5.866666666666666
@@ -252,13 +228,9 @@
       "niceScoreHistory" : [ 8.0, 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Books", "Technology", "Board Games", "Toys", "Sweets" ],
-      "assignedBudget" : 190.12738853503183,
+      "assignedBudget" : 133.0891719745223,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      }, {
         "price" : 100.0,
         "category" : "Technology",
         "productName" : "Headphones"
@@ -270,10 +242,6 @@
         "price" : 10.0,
         "category" : "Toys",
         "productName" : "Doll"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
       } ],
       "age" : 4,
       "averageScore" : 10.0
@@ -283,13 +251,9 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Books" ],
-      "assignedBudget" : 190.12738853503183,
+      "assignedBudget" : 247.16560509554137,
       "id" : 4,
-      "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 12,
       "averageScore" : 10.0
     }, {
@@ -301,14 +265,6 @@
       "assignedBudget" : 114.07643312101911,
       "id" : 5,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
@@ -326,21 +282,17 @@
       "assignedBudget" : 241.70255890549785,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 15.0,
         "category" : "Sweets",
-        "productName" : "Gummy Bears"
+        "productName" : "Chocolate"
+      }, {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
       }, {
         "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      }, {
-        "price" : 10.0,
-        "category" : "Toys",
-        "productName" : "Doll"
-      }, {
-        "price" : 10.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Monopoly"
       } ],
       "age" : 5,
       "averageScore" : 10.0
@@ -353,21 +305,17 @@
       "assignedBudget" : 126.28958702812263,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Doll"
-      }, {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Car"
       }, {
         "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
+        "category" : "Board Games",
+        "productName" : "Monopoly"
       }, {
-        "price" : 10.0,
+        "price" : 15.0,
         "category" : "Sweets",
-        "productName" : "Gummy Bears"
+        "productName" : "Chocolate"
       } ],
       "age" : 8,
       "averageScore" : 5.225
@@ -377,28 +325,24 @@
       "niceScoreHistory" : [ 8.0, 5.0, 10.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Books", "Technology", "Board Games", "Toys" ],
-      "assignedBudget" : 185.3052951608817,
+      "assignedBudget" : 240.89688370914624,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 10.0,
+        "price" : 15.0,
         "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
+        "productName" : "Chocolate"
       }, {
         "price" : 100.0,
         "category" : "Technology",
         "productName" : "Headphones"
       }, {
-        "price" : 10.0,
+        "price" : 30.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Monopoly"
       }, {
-        "price" : 10.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Doll"
+        "productName" : "Castle"
       } ],
       "age" : 5,
       "averageScore" : 7.666666666666667
@@ -408,13 +352,9 @@
       "niceScoreHistory" : [ 10.0, 5.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Books" ],
-      "assignedBudget" : 241.70255890549785,
+      "assignedBudget" : 314.2133265771472,
       "id" : 4,
-      "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 13,
       "averageScore" : 10.0
     } ]

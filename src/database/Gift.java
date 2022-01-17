@@ -10,6 +10,23 @@ public class Gift {
     private String productName;
     private Double price;
     private Category category;
+    private Long quantity;
+
+    /**
+     *
+     * @return
+     */
+    public Long getQuantity() {
+        return quantity;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    public void setQuantity(Long quantity) {
+        this.quantity = quantity;
+    }
 
     /**
      * @return
