@@ -4,65 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9abf9a1-a44c-43c6-b64a-ac2c53533e49" name="Changes" comment="Parsing redone.&#10;&#10;Rewrote Parser to accept new fields, added fields to necessary classes. Added niceScoreBonus logic too.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Cities/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Elves/BlackVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Elves/PinkVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Elves/WhiteVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Elves/YellowVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Strategies/GiftStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Strategies/byID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Strategies/byNiceScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Strategies/byNiceScoreCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Visitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simulation/Visitor.java" afterDir="false" />
+    <list default="true" id="c9abf9a1-a44c-43c6-b64a-ac2c53533e49" name="Changes" comment="Formalities Left.&#10;&#10;Added Elves logic as Visitor classes.&#10;Added Strategies for gift distribution.&#10;&#10;Need to write a factory for one of the classes to hit the 4 patterns quota, clear up any checkstyle errors and write a readme.&#10;&#10;P.S. test28.json still broken, yellow elf not taken into consideration.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/Gift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/Gift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/io/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/io/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/Baby.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/ChildAgeCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/Kid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/Simulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/database/Database.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/SimulationWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/SimulationWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/Teen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proiect2-OOP/simulation/YoungAdult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_12.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_14.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_14.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_19.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_19.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_22.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_22.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_23.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_25.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_26.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_26.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_27.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_27.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/out_28.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_28.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_29.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_29.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_30.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_30.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/Gift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Gift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulation/Baby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Children/Baby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulation/ChildAgeCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Children/ChildAgeCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulation/Kid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Children/Kid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulation/Teen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Children/Teen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulation/YoungAdult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Children/YoungAdult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simulation/Elves/YellowVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Elves/YellowVisitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641931766656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Formalities Left.&#10;&#10;Added Elves logic as Visitor classes.&#10;Added Strategies for gift distribution.&#10;&#10;Need to write a factory for one of the classes to hit the 4 patterns quota, clear up any checkstyle errors and write a readme.&#10;&#10;P.S. test28.json still broken, yellow elf not taken into consideration.">
+      <created>1642382955802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642382955802</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +110,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit.&#10;&#10;Merged projects, hope I did not break anything." />
     <MESSAGE value="Parsing redone.&#10;&#10;Rewrote Parser to accept new fields, added fields to necessary classes. Added niceScoreBonus logic too." />
-    <option name="LAST_COMMIT_MESSAGE" value="Parsing redone.&#10;&#10;Rewrote Parser to accept new fields, added fields to necessary classes. Added niceScoreBonus logic too." />
+    <MESSAGE value="Formalities Left.&#10;&#10;Added Elves logic as Visitor classes.&#10;Added Strategies for gift distribution.&#10;&#10;Need to write a factory for one of the classes to hit the 4 patterns quota, clear up any checkstyle errors and write a readme.&#10;&#10;P.S. test28.json still broken, yellow elf not taken into consideration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Formalities Left.&#10;&#10;Added Elves logic as Visitor classes.&#10;Added Strategies for gift distribution.&#10;&#10;Need to write a factory for one of the classes to hit the 4 patterns quota, clear up any checkstyle errors and write a readme.&#10;&#10;P.S. test28.json still broken, yellow elf not taken into consideration." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

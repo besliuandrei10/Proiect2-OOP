@@ -594,11 +594,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "assignedBudget" : 139.65455427378367,
       "id" : 7,
-      "receivedGifts" : [ {
-        "price" : 200.0,
-        "category" : "Clothes",
-        "productName" : "Handbag"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 2,
       "averageScore" : 10.0
     }, {

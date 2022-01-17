@@ -22,17 +22,17 @@ public class YellowVisitor implements Visitor {
 
             for (Gift gift : Database.getInstance().getGiftList()) {
                 if (gift.getCategory().equals(giftCat)) {
-                    if (gift.getQuantity() > 0) {
-                        if (selectedPrice > gift.getPrice()) {
-                            selectedGift = gift;
-                            selectedPrice = gift.getPrice();
-                        }
+                    if (selectedPrice > gift.getPrice()) {
+                        selectedGift = gift;
+                        selectedPrice = gift.getPrice();
                     }
                 }
             }
             if (selectedGift != null) {
-                child.addToReceivedGifts(selectedGift);
-                selectedGift.setQuantity(selectedGift.getQuantity() - 1);
+                if (selectedGift.getQuantity() > 0) {
+                    child.addToReceivedGifts(selectedGift);
+                    selectedGift.setQuantity(selectedGift.getQuantity() - 1);
+                }
             }
         }
     }

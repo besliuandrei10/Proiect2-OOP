@@ -38,7 +38,6 @@ Starting audit...
 [ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Simulation.java:162:18: Name 'BlackAndPinkElves' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 [ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Simulation.java:167:13: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Simulation.java:177:18: Name 'YellowElves' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\SimulationWrapper.java:26:22: '20' is a magic number. [MagicNumber]
 [ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Strategies\byID.java:10:14: Name 'byID' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
 [ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Strategies\byID.java:15:28: Parameter o1 should be final. [FinalParameters]
 [ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Strategies\byID.java:15:38: Parameter o2 should be final. [FinalParameters]
@@ -54,4 +53,4 @@ Starting audit...
 [ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Visitable.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] C:\Users\andu\Documents\GitHub\Proiect2-OOP\.\src\simulation\Visitor.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
 Audit done.
-Checkstyle ends with 54 errors.
+Checkstyle ends with 53 errors.
