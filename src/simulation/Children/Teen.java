@@ -40,10 +40,11 @@ public class Teen implements ChildAgeCategory {
 
         if (childRef.getNiceScoreBonus() != 0) {
             Double score = (Double) (sum / weights);
-            score += score * childRef.getNiceScoreBonus() / 100;
+            score += score * childRef.getNiceScoreBonus() / Constants.ONE_HUNDRED;
 
-            if (score > Constants.BABY_NICESCORE)
+            if (score > Constants.BABY_NICESCORE) {
                 return Constants.BABY_NICESCORE;
+            }
             return score;
         } else {
             return (Double) (sum / weights);

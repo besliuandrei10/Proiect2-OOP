@@ -16,7 +16,7 @@ public class City {
      *
      * @param name
      */
-    public City(Cities name) {
+    public City(final Cities name) {
         this.name = name;
         this.childList = new LinkedList<>();
     }
@@ -24,7 +24,7 @@ public class City {
     static class IDComparator implements Comparator<Child> {
 
         @Override
-        public int compare(Child o1, Child o2) {
+        public int compare(final Child o1, final Child o2) {
             return (-1) * o1.getId().compareTo(o2.getId());
         }
     }
@@ -49,7 +49,7 @@ public class City {
      *
      * @param name
      */
-    public void setName(Cities name) {
+    public void setName(final Cities name) {
         this.name = name;
     }
 
@@ -65,7 +65,7 @@ public class City {
      *
      * @param child
      */
-    public void addToChildList(Child child) {
+    public void addToChildList(final Child child) {
         childList.add(child);
     }
 

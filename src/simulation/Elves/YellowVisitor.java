@@ -13,7 +13,7 @@ public class YellowVisitor implements Visitor {
      * @param child
      */
     @Override
-    public void visit(Child child) {
+    public void visit(final Child child) {
         if (child.getReceivedGifts().isEmpty()) {
             Category giftCat = child.getGiftsPreferences().get(0);
 

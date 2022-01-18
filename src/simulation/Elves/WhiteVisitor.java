@@ -9,7 +9,7 @@ public class WhiteVisitor implements Visitor {
      * @param child
      */
     @Override
-    public void visit(Child child) {
+    public void visit(final Child child) {
         return;
     }
 }

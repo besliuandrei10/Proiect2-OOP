@@ -1,7 +1,6 @@
 package simulation;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import common.Constants;
 import database.AnnualChange;
 import database.Child;
 import database.ChildUpdate;
@@ -13,17 +12,13 @@ import enums.ElvesType;
 import io.Writer;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import simulation.Children.Baby;
 import simulation.Children.ChildAgeCategory;
-import simulation.Children.Kid;
-import simulation.Children.Teen;
+import simulation.Children.ChildFactory;
 import simulation.Elves.BlackVisitor;
 import simulation.Elves.PinkVisitor;
 import simulation.Elves.YellowVisitor;
 import simulation.Strategies.GiftStrategy;
-import simulation.Strategies.byID;
-import simulation.Strategies.byNiceScore;
-import simulation.Strategies.byNiceScoreCity;
+import simulation.Strategies.StrategyFactory;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -110,16 +105,8 @@ public class Simulation {
      * Distributes gifts according to preferences
      */
     private void distributeGifts() {
-
-        GiftStrategy strategy;
-        switch (this.strategy) {
-            case ID -> strategy = new byID();
-            case NICE_SCORE -> strategy = new byNiceScore();
-            case NICE_SCORE_CITY -> strategy = new byNiceScoreCity();
-            default -> throw new IllegalStateException("Unexpected value: " + this.strategy);
-        }
-
-        strategy.distributeGifts();
+        GiftStrategy strat = StrategyFactory.createStrategy(this.strategy);
+        strat.executeStrategy();
     }
 
     /**
@@ -149,9 +136,9 @@ public class Simulation {
             category.getChildRef().setAverageScore(score);
         }
         this.allocateBudget();
-        this.BlackAndPinkElves();
+        this.blackAndPinkElves();
         this.distributeGifts();
-        this.YellowElves();
+        this.yellowElves();
 
         Database.getInstance().sortChildList();
     }
@@ -159,7 +146,7 @@ public class Simulation {
     /**
      *  Black And Pink Elves apply their effects.
      */
-    private void BlackAndPinkElves() {
+    private void blackAndPinkElves() {
         BlackVisitor blackElf = new BlackVisitor();
         PinkVisitor pinkElf = new PinkVisitor();
 
@@ -167,6 +154,7 @@ public class Simulation {
             switch (child.getElf()) {
                 case BLACK -> child.accept(blackElf);
                 case PINK -> child.accept(pinkElf);
+                default -> { }
             }
         }
     }
@@ -174,7 +162,7 @@ public class Simulation {
     /**
      * Yellow Elves enter the frey.
      */
-    private void YellowElves() {
+    private void yellowElves() {
         YellowVisitor yellowElf = new YellowVisitor();
         for (Child child : Database.getInstance().getChildList()) {
             if (child.getElf().equals(ElvesType.YELLOW)) {
@@ -188,22 +176,14 @@ public class Simulation {
      */
     private ArrayList<ChildAgeCategory> sortChildren() {
         ArrayList<ChildAgeCategory> categorizedChildren = new ArrayList<>();
-        LinkedList<Child> copy = new LinkedList<>(Database.getInstance().getChildList());
 
+        // copie pentru a evita ConcurrentException
+
+        LinkedList<Child> copy = new LinkedList<>(Database.getInstance().getChildList());
         for (Child child : copy) {
-            if (child.getAge() < Constants.BABY_AGE) {
-                categorizedChildren.add(new Baby(child));
-            }
-            if (child.getAge() >= Constants.BABY_AGE
-                    && child.getAge() < Constants.TEEN_AGE) {
-                categorizedChildren.add(new Kid(child));
-            }
-            if (child.getAge() >= Constants.TEEN_AGE
-                    && child.getAge() <= Constants.YOUNG_ADULT_AGE) {
-                categorizedChildren.add(new Teen(child));
-            }
-            if (child.getAge() > Constants.YOUNG_ADULT_AGE) {
-                Database.getInstance().removeFromChildList(child);
+            ChildAgeCategory categorizedChild = ChildFactory.assignAge(child);
+            if (categorizedChild != null) {
+                categorizedChildren.add(categorizedChild);
             }
         }
         copy.clear();
@@ -218,13 +198,13 @@ public class Simulation {
         JSONArray listOfAnnualChanges = new JSONArray();
 
         this.initializeNiceScoreHistory();
-        simulateRound();
+        this.simulateRound();
         JSONObject children = Writer.writeAllChildren();
         listOfAnnualChanges.add(children);
 
         for (int i = 0; i < numberOfYears; i++) {
             this.nextYear(i);
-            simulateRound();
+            this.simulateRound();
             children = Writer.writeAllChildren();
             listOfAnnualChanges.add(children);
         }

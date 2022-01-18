@@ -2,8 +2,6 @@ package simulation.Strategies;
 
 import database.Child;
 import database.Database;
-import database.Gift;
-import enums.Category;
 import enums.Cities;
 import simulation.Cities.City;
 
@@ -13,15 +11,14 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class byNiceScoreCity implements GiftStrategy {
+public class ByNiceScoreCity implements GiftStrategy {
 
     private final LinkedHashMap<Cities, City> cityMap = new LinkedHashMap<>();
-    private List<Map.Entry<Cities, City>> sortedMap;
 
     static class CityComparator implements Comparator<Map.Entry<Cities, City>> {
 
         @Override
-        public int compare(Map.Entry<Cities, City> o1, Map.Entry<Cities, City> o2) {
+        public int compare(final Map.Entry<Cities, City> o1, final Map.Entry<Cities, City> o2) {
             if (o1.getValue().getAverageScore().equals(o2.getValue().getAverageScore())) {
                 return o1.getValue().getName().toString().compareTo(
                         o2.getValue().getName().toString());
@@ -65,35 +62,13 @@ public class byNiceScoreCity implements GiftStrategy {
      *
      */
     @Override
-    public void distributeGifts() {
+    public void executeStrategy() {
 
-        sortedMap = createCityMap();
+        List<Map.Entry<Cities, City>> sortedCities = createCityMap();
 
-        for (Map.Entry<Cities, City> entry : sortedMap) {
-            for (Child child : entry.getValue().getChildList()) {
-                Double remainingBudget = child.getAllocatedBudget();
-
-                for (Category category : child.getGiftsPreferences()) {
-                    Gift selectedGift = null;
-                    Double selectedGiftPrice = Double.MAX_VALUE;
-
-                    for (Gift gift : Database.getInstance().getGiftList()) {
-                        if (gift.getQuantity() > 0) {
-                            if (gift.getCategory().equals(category)) {
-                                if (selectedGiftPrice > gift.getPrice()) {
-                                    selectedGift = gift;
-                                    selectedGiftPrice = gift.getPrice();
-                                }
-                            }
-                        }
-                    }
-                    if (remainingBudget - selectedGiftPrice > 0 && selectedGift != null) {
-                        child.addToReceivedGifts(selectedGift);
-                        remainingBudget -= selectedGiftPrice;
-                        selectedGift.setQuantity(selectedGift.getQuantity() - 1);
-                    }
-                }
-            }
+        for (Map.Entry<Cities, City> entry : sortedCities) {
+            GiftDistributor giftAssigner = new GiftDistributor();
+            giftAssigner.distributeGifts(entry.getValue().getChildList());
         }
 
     }

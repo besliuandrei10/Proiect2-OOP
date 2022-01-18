@@ -45,7 +45,7 @@ public class Child implements Visitable {
      *
      * @param elf
      */
-    public void setElf(ElvesType elf) {
+    public void setElf(final ElvesType elf) {
         this.elf = elf;
     }
 
@@ -61,7 +61,7 @@ public class Child implements Visitable {
      *
      * @param niceScoreBonus
      */
-    public void setNiceScoreBonus(Double niceScoreBonus) {
+    public void setNiceScoreBonus(final Double niceScoreBonus) {
         this.niceScoreBonus = niceScoreBonus;
     }
 
@@ -301,8 +301,12 @@ public class Child implements Visitable {
                 '}';
     }
 
+    /**
+     *
+     * @param visitor
+     */
     @Override
-    public void accept(Visitor visitor) {
+    public void accept(final Visitor visitor) {
         visitor.visit(this);
     }
 }

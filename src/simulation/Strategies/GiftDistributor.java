@@ -5,27 +5,18 @@ import database.Database;
 import database.Gift;
 import enums.Category;
 
-import java.util.Comparator;
+import java.util.LinkedList;
 
-public class byID implements GiftStrategy {
+public class GiftDistributor {
 
-    static class IDComparator implements Comparator<Child> {
-
-        @Override
-        public int compare(Child o1, Child o2) {
-            return o1.getId().compareTo(o2.getId());
-        }
-    }
+    public GiftDistributor() { }
 
     /**
      *
+     * @param childList
      */
-    @Override
-    public void distributeGifts() {
-
-        Database.getInstance().getChildList().sort(new IDComparator());
-
-        for (Child child : Database.getInstance().getChildList()) {
+    void distributeGifts(final LinkedList<Child> childList) {
+        for (Child child : childList) {
             Double remainingBudget = child.getAllocatedBudget();
 
             for (Category category : child.getGiftsPreferences()) {

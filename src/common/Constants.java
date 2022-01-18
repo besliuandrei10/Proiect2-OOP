@@ -16,6 +16,8 @@ public final class Constants {
     public static final Integer BABY_AGE = 5;
     public static final Integer TEEN_AGE = 12;
     public static final Integer YOUNG_ADULT_AGE = 18;
+    public static final Integer ONE_HUNDRED = 100;
+    public static final Integer THIRTY = 30;
 
     private Constants() {
         //constructor for checkstyle

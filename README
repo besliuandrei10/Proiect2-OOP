@@ -1,0 +1,28 @@
+Nume: BESLIU Andrei-Cornel
+Grupa: 321CD
+
+--=== Proiect 2 - POO ===--
+
+!!!DESIGN PATTERNS USED !!!
+Singleton -> Database for obvious reasons
+Strategy -> Pentru a diferentia intre Baby, Kid, Teen, YoungAdult
+            Pentru a alege strategie de sortare a copiilor la fiecare runda.
+Factory -> Pentru a prelua din logica prezenta in Simulation la realizarea strategiilor.
+Visitor -> Implementarea elfilor.
+!!! END DESIGN PATTERNS USED !!!
+
+O sa mentionez doar functionalizatile noi adaugate fata de etapa 1.
+
+NiceScoreBonus a fost usor de adaugat, am modificat formula pentru average score si am adaugat
+un camp pentru a retine valoarea bonusului.
+
+Elfii sunt implementati folosind pattern-ul Visitor pentru a evita pe cat posibilul
+modificarea claselor initiale. Efectele lor sunt aplicate in Simulation.simulateRound() in ordinea ceruta.
+
+Strategia de distribuire a cadourilor este realizata fiecare in clasa ei. Sorteaza lista de copii si apoi
+o paseaza la un gift distributor care se ocupa de asignarea efectiva a cadourilor.
+
+Restul functionalizatilor consider ca sunt sufiecient de explicare as-is.
+
+Si da, Parser-ul tot oribil este. I am not touching that. Daca nu as fi avut 3 teme in acelasi timp cu siguranta
+il faceam muuult mai estetic.

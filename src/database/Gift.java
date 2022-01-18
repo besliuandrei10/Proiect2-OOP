@@ -24,7 +24,7 @@ public class Gift {
      *
      * @param quantity
      */
-    public void setQuantity(Long quantity) {
+    public void setQuantity(final Long quantity) {
         this.quantity = quantity;
     }
 

@@ -131,10 +131,14 @@ public class Database {
         return DATABASE;
     }
 
+    /**
+     * Sorts childList byID, needed for reset after each round otherwise
+     * order of elements changes in json array for some reason.
+     */
     public void sortChildList() {
         this.childList.sort(new Comparator<Child>() {
             @Override
-            public int compare(Child o1, Child o2) {
+            public int compare(final Child o1, final Child o2) {
                 return o1.getId().compareTo(o2.getId());
             }
         });

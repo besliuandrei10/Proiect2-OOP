@@ -1,5 +1,6 @@
 package simulation.Elves;
 
+import common.Constants;
 import database.Child;
 import simulation.Visitor;
 
@@ -10,9 +11,13 @@ public class PinkVisitor implements Visitor {
      * @param child
      */
     @Override
-    public void visit(Child child) {
+    public void visit(final Child child) {
         double newBudget;
-        newBudget = child.getAllocatedBudget() + (child.getAllocatedBudget() * 30 / 100);
+
+        // Urasc ca a trebuit sa pun constantele acolo dar checkstyle-ul imi forteaza mana.
+
+        newBudget = child.getAllocatedBudget()
+                + (child.getAllocatedBudget() * Constants.THIRTY / Constants.ONE_HUNDRED);
         child.setAllocatedBudget(newBudget);
     }
 }

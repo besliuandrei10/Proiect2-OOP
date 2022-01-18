@@ -1,5 +1,9 @@
 package simulation.Strategies;
 
 public interface GiftStrategy {
-    void distributeGifts();
+    /**
+     * No comment, checkstyle zice ca aici trebuie un javadoc.
+     * ¯\_(ツ)_/¯
+     */
+    void executeStrategy();
 }

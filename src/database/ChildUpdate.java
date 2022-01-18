@@ -29,7 +29,7 @@ public class ChildUpdate {
      *
      * @param elf
      */
-    public void setElf(ElvesType elf) {
+    public void setElf(final ElvesType elf) {
         this.elf = elf;
     }
 
